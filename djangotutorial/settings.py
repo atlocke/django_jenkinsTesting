@@ -109,7 +109,9 @@ TEMPLATE_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
-
+PROJECT_APPS = [
+    'polls',
+]
 INSTALLED_APPS = (
     'django_jenkins',
     'django.contrib.auth',
@@ -121,7 +123,6 @@ INSTALLED_APPS = (
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
-    'polls'
 )
 
 # A sample logging configuration. The only tangible logging
